@@ -93,23 +93,19 @@ export function ContactForm() {
           >
             <option value='' defaultValue>Elige una opción</option>
             <option value='Almacenamiento de energia'>Almacenamiento de energía</option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
-            <option value=''></option>
+            <option value=''>Eficiencia de energía</option>
+            <option value=''>Generación termosolar</option>
+            <option value=''>Fabricantes y/o distribución de paneles solares</option>
+            <option value=''>Instaladores solares</option>
+            <option value=''>Instaladores</option>
+            <option value=''>Bioenergía</option>
+            <option value=''>Servicios de consultoría y servicios legales</option>
+            <option value=''>Generación distribuidas</option>
+            <option value=''>Generación a gran escala</option>
+            <option value=''>Financiamiento</option>
+            <option value=''>Gobierno y dependencias</option>
+            <option value=''>Sector educativo</option>
+            <option value=''>Hidrogeno</option>
             <option value='Otros'>Otros</option>
           </select>
         </div>
@@ -154,8 +150,8 @@ export function ContactForm() {
           >
             Codigo de país + número de teléfono
           </label>
-          <div className='w-full  rounded-md shadow-md flex'>
-            <div className='w-52'>
+          <div className='w-full rounded-md shadow-md lg:flex'>
+            <div className='lg:w-52 w-full lg:mr-12'>
               <select
                 className='block w-full mt-1 p-2 text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-500'
                 value={selectedCountryCode}
@@ -189,7 +185,7 @@ export function ContactForm() {
             </div>
           </div>
         </div>
-        <div className='sm:col-span-2'>
+        {/* <div className='sm:col-span-2'>
           <label
             htmlFor='message'
             className='block mb-2 text-sm font-medium text-white'
@@ -204,7 +200,7 @@ export function ContactForm() {
             placeholder='Dejanos saber como podemos ayudarte...'
             required
           ></textarea>
-        </div>
+        </div> */}
         {sendStatus ? (
           <span className='text-white flex'>
             <svg
