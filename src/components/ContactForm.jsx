@@ -93,19 +93,19 @@ export function ContactForm() {
           >
             <option value='' defaultValue>Elige una opción</option>
             <option value='Almacenamiento de energia'>Almacenamiento de energía</option>
-            <option value=''>Eficiencia de energía</option>
-            <option value=''>Generación termosolar</option>
-            <option value=''>Fabricantes y/o distribución de paneles solares</option>
-            <option value=''>Instaladores solares</option>
-            <option value=''>Instaladores</option>
-            <option value=''>Bioenergía</option>
-            <option value=''>Servicios de consultoría y servicios legales</option>
-            <option value=''>Generación distribuidas</option>
-            <option value=''>Generación a gran escala</option>
-            <option value=''>Financiamiento</option>
-            <option value=''>Gobierno y dependencias</option>
-            <option value=''>Sector educativo</option>
-            <option value=''>Hidrogeno</option>
+            <option value='Eficiencia de energia'>Eficiencia de energía</option>
+            <option value='Generacion termosolar'>Generación termosolar</option>
+            <option value='Fabricantes y/o distribucion de paneles solares'>Fabricantes y/o distribución de paneles solares</option>
+            <option value='Instaladores solares'>Instaladores solares</option>
+            <option value='Instaladores'>Instaladores</option>
+            <option value='Bioenergia'>Bioenergía</option>
+            <option value='Servicios de consultoria y servicios legales'>Servicios de consultoría y servicios legales</option>
+            <option value='Generacion distribuidas'>Generación distribuidas</option>
+            <option value='Generacion a gran escala'>Generación a gran escala</option>
+            <option value='Financiamiento'>Financiamiento</option>
+            <option value='Gobierno y dependencias'>Gobierno y dependencias</option>
+            <option value='Sector educativo'>Sector educativo</option>
+            <option value='Hidrogeno'>Hidrogeno</option>
             <option value='Otros'>Otros</option>
           </select>
         </div>
