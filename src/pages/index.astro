@@ -1,0 +1,73 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { ContactForm } from '../components/ContactForm'
+
+---
+
+<Layout title="ENERGY NIGTH">
+  <main>
+    <section class="ecomondo-bloq-1" style="text-shadow: 4px 4px 12px black">
+      <div class="pt-10 pb-10 container mx-auto p-2">
+        <div class="grid md:grid-cols-2">
+          <div class="h-auto grid items-center justify-center">
+            <div>
+              <h1
+                class="uppercase lg:text-7xl text-4xl lg:text-left text-center text-white"
+              >
+                EL<span class="font-bold"> evento más importanter</span> de la industria
+              </h1><br />
+              <p
+                class="text-white lg:text-2xl text-xl font-semibold lg:text-left text-center"
+              >
+                Networking - Negocios - Música - Cóctel
+              </p><br /><br />
+              <p
+                class="text-white lg:text-3xl text-xl font-bold lg:text-left text-center"
+              >
+                miércoles 17 de abril 2024 | Expo Guadalajara
+              </p>
+            </div>
+          </div>
+          <div class="h-auto flex items-center justify-center">
+            <img
+              src="/img/logo_energy_night_01.webp"
+              alt=""
+              class="w-[600px]"
+            />
+          </div>
+        </div>
+		<p class="text-white text-center font-medium lg:text-3xl text-normal">¡No te quedes afuera! Regístrate ahora, cupo limitado.</p>
+      </div>
+    </section>
+	<section class="ecomondo-bloq-2 p-8">
+		<p class="text-white text-5xl font-semibold text-center pt-24">¡Registrate ahora y prepárate para crear conexiones profesionales! </p>
+		<ContactForm client:visible />
+	</section>
+  </main>
+</Layout>
+
+<style>
+  .ecomondo-bloq-1 {
+    background-image: url("/img/energy-nigth-bannerv2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0; 
+  }
+
+  .ecomondo-bloq-2 {
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  @media (max-width: 667px) {
+    .ecomondo-bloq-1 {
+      height: auto;
+    }
+  }
+</style>
