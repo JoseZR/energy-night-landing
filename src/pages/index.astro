@@ -35,17 +35,15 @@ import { ContactForm } from "../components/ContactForm";
             />
           </div>
         </div>
-        <div class="h-screen">
+        <div class="">
           <div class="flex items-center justify-center">
             <p
-              class="flex justify-center items-center text-white text-center font-medium uppercase md:text-3xl text-xl text-normal mb-12 bg-red-500 md:w-[400px] md:h-[80px] w-full h-[60px] md:rounded-full"
+              class="font-bold flex justify-center items-center text-white text-center uppercase md:text-3xl text-xl text-normal mb-12 md:w-[400px] md:h-[80px] w-full h-[60px] md:rounded-full"
             >
-              Cupo limitado
+            ¡ Cupo limitado !
             </p>
           </div>
-          <p
-            class="text-white text-center font-medium md:text-4xl text-2xl text-normal"
-          >
+          <p class="text-white text-center font-medium md:text-4xl text-2xl text-normal">
             Adquiere tu programa de conferencias <br /> y accede a la ENERGY NIGHT
             <br /><br />
             <span class="uppercase md:text-5xl text-3xl font-bold"
@@ -55,6 +53,15 @@ import { ContactForm } from "../components/ContactForm";
             ><br /> Programa de conferencias + Energy Night
           </p>
           <div class="lg:flex grid justify-center items-center pt-8">
+            <a href="/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf" target="_blank">
+              <button
+                type="button"
+                class="text-blue-950 bg-pink-300 hover:bg-blue-200 font-bold rounded-full text-lg px-5 py-2.5 text-center m-8 mb-2 lg:w-[400px] lg:h-[70px] h-[80px]"
+                >QUIERO SER PATROCINADOR</button
+              >
+            </a>
+          </div>
+          <div class="lg:flex grid justify-center items-center">
             <a href="https://solarstorage.ahmreg.com/#registro" target="_blank">
               <button
                 type="button"
@@ -76,10 +83,6 @@ import { ContactForm } from "../components/ContactForm";
         </div>
       </div>
     </section>
-    <!-- <section class="bloq-2 py-8">
-		<p class="text-white lg:text-4xl text-2xl font-semibold text-center lg:pt-10 px-8">¡Registrate ahora y prepárate para crear conexiones profesionales! </p>
-		<ContactForm client:visible />
-	</section> -->
   </main>
   <footer class="bg-gradient-to-r from-blue-600 to-indigo-800 h-auto py-6">
     <div class="pt-5 container mx-auto px-4">
@@ -183,7 +186,6 @@ import { ContactForm } from "../components/ContactForm";
     </div>
   </footer>
 </Layout>
-
 <style>
   .bloq-1 {
     background-image: url("/img/energy-nigth-bannerv2.webp");
