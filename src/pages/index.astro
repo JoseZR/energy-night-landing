@@ -10,7 +10,7 @@ import { ContactForm } from "../components/ContactForm";
         <div
           class="grid md:grid-cols-2 sm:grid-cols-2 h-screen sm:items-center sm:px-14 px-2"
         >
-          <div
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine"
             class="h-auto sm:order-1 order-2 sm:text-left text-center sm:flex sm:flex-col sm:justify-start"
           >
             <p class="uppercase lg:text-6xl text-3xl text-white">
@@ -25,7 +25,7 @@ import { ContactForm } from "../components/ContactForm";
               miércoles 17 de abril de 2024 | 19:00 hrs <br /> Expo Guadalajara
             </p>
           </div>
-          <div
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine" 
             class="h-auto flex items-center justify-center lg:order-2 order-1"
           >
             <img
@@ -83,9 +83,19 @@ import { ContactForm } from "../components/ContactForm";
         </div>
       </div>
     </section>
+    <section class="py-14">
+      <p class="text-center font-extrabold lg:text-4xl text-3xl">Powered By</p>
+      <div class="grid grid-cols-1 gap-4">
+        <div class="flex justify-center">
+          <a href="https://www.trinasolar.com/es" target="_blank">
+            <img src="/img/trina-solar.webp" alt="TrinaSolar"  class='md:h-[140px] h-[100px]'>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="bg-gradient-to-r from-blue-600 to-indigo-800 h-auto py-6">
-    <div class="pt-5 container mx-auto px-4">
+  <footer class="bg-gradient-to-r from-blue-600 to-indigo-800 h-auto py-5">
+    <div class="container mx-auto px-4">
       <div class="grid md:grid-cols-3 place-items-center items-center gap-8">
         <a href="https://www.solarpowermexico.mx/" target="_blank">
           <img src="/img/SSM-logo.webp" alt="cola-storage-mexico" width="100" />

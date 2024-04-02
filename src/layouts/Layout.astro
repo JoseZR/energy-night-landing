@@ -13,6 +13,7 @@ const { title } = Astro.props;
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" href="/img/energy-nigth_faviconv2.webp" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
@@ -20,6 +21,12 @@ const { title } = Astro.props;
 		<slot />
 	</body>
 </html>
+<script is:inline src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+    <script is:inline>
+      AOS.init({
+        disable: 'mobile',
+      })
+  </script>
 <style is:global>
     html {
       font-family: system-ui, sans-serif;
