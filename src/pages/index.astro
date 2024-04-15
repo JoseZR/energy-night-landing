@@ -40,13 +40,19 @@ import { ContactForm } from "../components/ContactForm";
               class="lg:w-[450px] w-[250px]"
             />
             <p class="text-white text-2xl font-semibold mb-2">Powered by</p>
-            <a href="https://www.trinasolar.com/es" target="_blank">
+            <div class="flex">
+                <a href="https://www.trinasolar.com/es" target="_blank">
               <img
                 src="/img/trina_logo_bn.png"
                 alt="TrinaSolar"
                 class="md:h-[120px] h-[100px]"
               />
             </a>
+            <a href="https://cuervotradicional.com.mx/" target="_blank">
+              <img src="/img/cuervo.webp" alt="TrinaSolar" class="md:h-[120px] h-[100px] white-drop-shadow" />
+
+            </a>
+            </div>
           </div>
         </div>
         <div class="">
@@ -217,4 +223,8 @@ import { ContactForm } from "../components/ContactForm";
       height: auto;
     }
   }
+
+  .white-drop-shadow {
+    filter: drop-shadow(0px 4px 6px rgba(255, 255, 255, 0.5));
+    }
 </style>
